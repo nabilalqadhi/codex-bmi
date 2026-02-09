@@ -34,6 +34,12 @@ BMIApp
 - VoiceOver-friendly labels and grouped accessibility elements.
 - Smooth transition animation when presenting results.
 
+## Run the App (Xcode)
+1. Open Xcode and create a new **iOS App** project (SwiftUI lifecycle, iOS 13+).
+2. Replace the generated `ContentView.swift` and `YourAppNameApp.swift` with the files in `BMIApp/Views` and `BMIApp/BMIAppApp.swift`.
+3. Add the remaining files under `BMIApp/Models` and `BMIApp/ViewModels` to the project.
+4. Select an iPhone X (or later) simulator and press **Run**.
+
 ## BMI Formula
 ```
 BMI = weight / (height × height)
